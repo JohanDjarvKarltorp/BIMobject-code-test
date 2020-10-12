@@ -31,6 +31,7 @@ body {
 
 .card .poster {
     border: 10px solid white;
+    min-height: 445px;
 }
 
 .card .poster img {
