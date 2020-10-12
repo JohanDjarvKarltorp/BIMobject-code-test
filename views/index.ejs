@@ -1,7 +1,24 @@
 <%- include("header", {title: title}); %>
 
 <body>
-	<h1><%= res %></h1>
+<div class="flex-container">
+    <% for (const row of res) { %>
+        <div class="card">
+            <div class="poster">
+                <img class="poster-background" src=<%= row.Poster %>/>
+            </div>
+            <div class="info">
+                <h1><%= row.Title %></h1>
+            </div>
+            <div class="overlay">
+                <% if (row.imdbRating !== "N/A") {%> <h2><%= row.imdbRating %>/10</h2> <% }%>
+                <h2><%= row.Genre %></h2>
+                <h2><%= row.Year %></h2>
+            </div>
+        </div>
+
+    <% } %>
+</div>
 </body>
 
 </html>
