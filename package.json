@@ -1,0 +1,28 @@
+{
+  "name": "BIMobject-code-test",
+  "version": "1.0.0",
+  "description": "A OMDB API website",
+  "main": "index.js",
+  "scripts": {
+    "test": "./eslint/run.sh",
+    "lint-hook": "./eslint/auto_lint.sh",
+    "lint": "./node_modules/.bin/eslint ./",
+    "lint-fix": "./node_modules/.bin/eslint --fix ./"
+  },
+  "precommit.silent": false,
+  "precommit.colors": true,
+  "pre-commit": [
+    "lint-hook"
+  ],
+  "repository": {},
+  "author": "Johan Djärv Karltorp",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "pre-commit": "^1.2.2"
+  }
+}
