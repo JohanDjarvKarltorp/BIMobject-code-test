@@ -1,7 +1,7 @@
 'use strict';
 const express = require('express');
 const router = express.Router();
-//const NAME = require('../src/NAME.js');
+const omdb = require('../src/OMDb-api');
 let data;
 
 router.get('/', async (req, res) => {
@@ -9,8 +9,8 @@ router.get('/', async (req, res) => {
         title: 'BIMobject code test'
     };
 
-    //data.res = await NAME.showAll();
-    data.res = "Hello world";
+    data.res = await omdb.homepage();
+
     res.render('index', data);
 });
 
