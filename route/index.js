@@ -27,4 +27,16 @@ router.get('/search', async (req, res) => {
     res.render('index', data);
 });
 
+router.get('/about/:id', async (req, res) => {
+    data = {
+        title: 'BIMobject code test'
+    };
+
+    const id = req.params.id;
+
+    data.res = await omdb.get(id);
+
+    res.render('about', data);
+});
+
 module.exports = router;

@@ -1,0 +1,36 @@
+<%- include("header", {title: title}); %>
+
+<body>
+<div class="flex-container">
+    <%
+    let placeholder = res.Poster !== "N/A";
+    let poster = placeholder ? res.Poster : "./images/image-icon.svg";
+
+    let imdbRating = res.imdbRating !=="N/A"
+    %>
+
+    <div class="<%= placeholder ? "poster" : "placeholder" %>">
+        <img src="<%= poster %>"/>
+    </div>
+
+    <main>
+        <div class="about-container">
+            <h1><%= res.Title %> (<%= res.Year %>)</h1>
+            <span><%= res.Rated%> | <%= res.Runtime %> | <%= res.Genre%> | <%= res.Released%></span> <br/>
+            <p><%= res.Plot%></p>
+            <br/>
+            <span><b class="fixed-width">Director: </b> <%= res.Director%></span> <br/>
+            <span><b class="fixed-width">Writers: </b> <%= res.Writer%><span> <br/>
+            <span><b class="fixed-width">Actors: </b> <%= res.Actors%><span> <br/><br/>
+
+            <% if (imdbRating) { %> <span><b>imdb: </b> <%= res.imdbRating%>/10 - <%= res.imdbVotes %> votes<span><br/> <% } %>
+            <% for (const rating of res.Ratings) { %>
+                <span><b><%= rating.Source %>: </b> <%= rating.Value%></span><br/>
+            <% } %>
+
+        </div>
+    </main>
+</div>
+</body>
+
+</html>

@@ -11,7 +11,12 @@ const omdb = {
     },
 
     search: async (keyword) => {
-        return await fetch(`${url}/?s=${keyword}&type=movie&series&apikey=${key}`)
+        return await fetch(`${url}/?s=${keyword}&type=movie&apikey=${key}`)
+            .then(res => res.json());
+    },
+
+    get: async (id) => {
+        return await fetch(`${url}/?i=${id}&plot=full&apikey=${key}`)
             .then(res => res.json());
     },
 };
