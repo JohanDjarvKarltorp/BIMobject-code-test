@@ -1,24 +1,341 @@
 {
-  "ids": [
-    "tt7846844",  "tt7395114",  "tt6723592",  "tt13143964", "tt0805647",
-    "tt4685762",  "tt0073486",  "tt10199914", "tt11464826", "tt1070874",
-    "tt10362466", "tt10324122", "tt0107120",  "tt1160419",  "tt4566758",
-    "tt8976576",  "tt0087538",  "tt7939766",  "tt8367814",  "tt10065694",
-    "tt10886166", "tt8784956",  "tt8946378",  "tt11024272", "tt2382320",
-    "tt0443453",  "tt12987894", "tt1051906",  "tt1086064",  "tt7713068",
-    "tt0241527",  "tt0115963",  "tt7435316",  "tt7286456",  "tt7549996",
-    "tt0083929",  "tt1918734",  "tt5363618",  "tt4154796",  "tt0100944",
-    "tt0094721",  "tt7131622",  "tt4682266",  "tt6751668",  "tt3833480",
-    "tt9196192",  "tt7737786",  "tt1877830",  "tt11771594", "tt10633456",
-    "tt10804786", "tt4225622",  "tt8503618",  "tt0111161",  "tt0348333",
-    "tt0816692",  "tt1025100",  "tt10682266", "tt0433035",  "tt0468569",
-    "tt0068646",  "tt1950186",  "tt2584384",  "tt1825683",  "tt7149730",
-    "tt0087182",  "tt1375666",  "tt6334354",  "tt4916630",  "tt7556122",
-    "tt5918982",  "tt4126476",  "tt7711170",  "tt5606664",  "tt8688634",
-    "tt1620981",  "tt8772262",  "tt10059518", "tt12888462", "tt9866072",
-    "tt0077651",  "tt0101272",  "tt1856101",  "tt6450804",  "tt8579674",
-    "tt7984734",  "tt4669788",  "tt2850386",  "tt8143990",  "tt0993846",
-    "tt0102926",  "tt0110912",  "tt7126948",  "tt1284575",  "tt1502407",
-    "tt3501632",  "tt0385887",  "tt1396484",  "tt6394270",  "tt0920462"
+  "top10": [
+    {
+      "Title": "Enola Holmes",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "23 Sep 2020",
+      "Runtime": "123 min",
+      "Genre": "Adventure, Crime, Drama, Mystery",
+      "Director": "Harry Bradbeer",
+      "Writer": "Nancy Springer (novel), Jack Thorne (screenplay)",
+      "Actors": "Millie Bobby Brown, Henry Cavill, Sam Claflin, Helena Bonham Carter",
+      "Plot": "When Enola Holmes-Sherlock's teen sister-discovers her mother missing, she sets off to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy around a mysterious young Lord.",
+      "Language": "English",
+      "Country": "UK",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjNkNzk0ZjEtM2M1ZC00MmMxLTlmOWEtNWRlZTc1ZTUyNzY4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Metacritic",
+          "Value": "62/100"
+        }
+      ],
+      "Metascore": "62",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt7846844",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Devil All the Time",
+      "Year": "2020",
+      "Rated": "R",
+      "Released": "16 Sep 2020",
+      "Runtime": "138 min",
+      "Genre": "Crime, Drama, Thriller",
+      "Director": "Antonio Campos",
+      "Writer": "Antonio Campos (screenplay by), Paulo Campos (screenplay by), Donald Ray Pollock (based on the novel by)",
+      "Actors": "Donald Ray Pollock, Bill Skarsgård, Tom Holland, Michael Banks Repeta",
+      "Plot": "Sinister characters converge around a young man devoted to protecting those he loves in a postwar backwoods town teeming with corruption and brutality.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZmE1NmVmN2EtMjZmZC00YzAyLWE4MWEtYjY5YmExMjUxODU1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.1/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "55/100"
+        }
+      ],
+      "Metascore": "55",
+      "imdbRating": "7.1",
+      "imdbVotes": "53,665",
+      "imdbID": "tt7395114",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Tenet",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "03 Sep 2020",
+      "Runtime": "150 min",
+      "Genre": "Action, Sci-Fi",
+      "Director": "Christopher Nolan",
+      "Writer": "Christopher Nolan",
+      "Actors": "Juhan Ulfsak, Jefferson Hall, Ivo Uukkivi, Andrew Howard",
+      "Plot": "Armed with only one word, Tenet, and fighting for the survival of the entire world, a Protagonist journeys through a twilight world of international espionage on a mission that will unfold in something beyond real time.",
+      "Language": "English, Russian, Ukrainian, Estonian",
+      "Country": "UK, USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BYzg0NGM2NjAtNmIxOC00MDJmLTg5ZmYtYzM0MTE4NWE2NzlhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.8/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "71%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "69/100"
+        }
+      ],
+      "Metascore": "69",
+      "imdbRating": "7.8",
+      "imdbVotes": "125,823",
+      "imdbID": "tt6723592",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Syncopy, Warner Bros. Pictures",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "Borat Subsequent Moviefilm",
+      "Year": "2020",
+      "Rated": "R",
+      "Released": "23 Oct 2020",
+      "Runtime": "N/A",
+      "Genre": "Comedy",
+      "Director": "Jason Woliner",
+      "Writer": "Peter Baynham (screenplay), Sacha Baron Cohen (screenplay), Jena Friedman (screenplay), Anthony Hines (screenplay), Lee Kern (screenplay), Dan Mazer (screenplay), Erica Rivinoja (screenplay), Dan Swimer (screenplay), Anthony Hines (story), Nina Pedrad (story), Dan Swimer (story), Sacha Baron Cohen (based on character created by), Nick Corirossi (additional writing)",
+      "Actors": "Sacha Baron Cohen, Maria Bakalova, Mike Pence, Rudy Giuliani",
+      "Plot": "Follow-up film to the 2006 comedy centering on the real-life adventures of a fictional Kazakh television journalist named Borat.",
+      "Language": "English",
+      "Country": "UK, USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMTg4NDgxMmEtZWI1ZC00MDg3LTgyMDEtNTgwODU2YTVhN2RmXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt13143964",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Witches",
+      "Year": "2020",
+      "Rated": "PG",
+      "Released": "22 Oct 2020",
+      "Runtime": "N/A",
+      "Genre": "Adventure, Comedy, Family, Fantasy, Horror, Mystery",
+      "Director": "Robert Zemeckis",
+      "Writer": "Robert Zemeckis (screenplay by), Roald Dahl (novel), Kenya Barris (screenplay by), Allan Scott (based on the 1990 film \"The Witches\" screenplay by), Guillermo del Toro (screenplay by)",
+      "Actors": "Anne Hathaway, Octavia Spencer, Stanley Tucci, Chris Rock",
+      "Plot": "Based on Roald Dahl's 1983 classic book 'The Witches', the story tells the scary, funny and imaginative tale of a seven year old boy who has a run in with some real life witches!",
+      "Language": "English",
+      "Country": "Mexico, USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjRkYjlhMjEtYzIwOC00ZWYzLTgyMmQtYjI5M2UzNDJkNTU2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt0805647",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Craft",
+      "Year": "2020",
+      "Rated": "N/A",
+      "Released": "27 Oct 2020",
+      "Runtime": "N/A",
+      "Genre": "Drama, Fantasy, Horror",
+      "Director": "Zoe Lister-Jones",
+      "Writer": "Zoe Lister-Jones (screenplay)",
+      "Actors": "Michelle Monaghan, David Duchovny, Cailee Spaeny, Gideon Adlon",
+      "Plot": "A group of high school students form a coven of witches. A remake of the 1996 film, \"The Craft\".",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjY0YzYwM2YtMzcyOC00YmFjLTgxMzEtNzg0YjEwYjlhY2I5XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+      "Ratings": [],
+      "Metascore": "N/A",
+      "imdbRating": "N/A",
+      "imdbVotes": "N/A",
+      "imdbID": "tt4685762",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "One Flew Over the Cuckoo's Nest",
+      "Year": "1975",
+      "Rated": "R",
+      "Released": "19 Nov 1975",
+      "Runtime": "133 min",
+      "Genre": "Drama",
+      "Director": "Milos Forman",
+      "Writer": "Lawrence Hauben (screenplay), Bo Goldman (screenplay), Ken Kesey (based on the novel by), Dale Wasserman (the play version: \"One Flew Over the Cuckoo's Nest\" by)",
+      "Actors": "Michael Berryman, Peter Brocco, Dean R. Brooks, Alonzo Brown",
+      "Plot": "A criminal pleads insanity and is admitted to a mental institution, where he rebels against the oppressive nurse and rallies up the scared patients.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "Won 5 Oscars. Another 30 wins & 14 nominations.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZjA0OWVhOTAtYWQxNi00YzNhLWI4ZjYtNjFjZTEyYjJlNDVlL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.7/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "93%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "83/100"
+        }
+      ],
+      "Metascore": "83",
+      "imdbRating": "8.7",
+      "imdbVotes": "892,685",
+      "imdbID": "tt0073486",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "Fantasy Films",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Boys in the Band",
+      "Year": "2020",
+      "Rated": "R",
+      "Released": "30 Sep 2020",
+      "Runtime": "121 min",
+      "Genre": "Drama",
+      "Director": "Joe Mantello",
+      "Writer": "Mart Crowley (based on the play and the motion picture \"The Boys in the Band\" by), Mart Crowley (screenplay by), Ned Martel (screenplay by)",
+      "Actors": "Jim Parsons, Zachary Quinto, Matt Bomer, Andrew Rannells",
+      "Plot": "At a birthday party in 1968 New York, a surprise guest and a drunken game leave seven gay friends reckoning with unspoken feelings and buried truths.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMDkyODhlYmUtZWU1OS00NWVhLTk3MjMtMDRjZjBiYTc0OWRhXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "6.8/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "70/100"
+        }
+      ],
+      "Metascore": "70",
+      "imdbRating": "6.8",
+      "imdbVotes": "4,093",
+      "imdbID": "tt10199914",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Social Dilemma",
+      "Year": "2020",
+      "Rated": "PG-13",
+      "Released": "09 Sep 2020",
+      "Runtime": "94 min",
+      "Genre": "Documentary, Drama",
+      "Director": "Jeff Orlowski",
+      "Writer": "Davis Coombe, Vickie Curtis, Jeff Orlowski",
+      "Actors": "Skyler Gisondo, Kara Hayward, Vincent Kartheiser, Tristan Harris",
+      "Plot": "Explores the dangerous human impact of social networking, with tech experts sounding the alarm on their own creations.",
+      "Language": "English",
+      "Country": "USA",
+      "Awards": "2 wins & 1 nomination.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNDVhMGNhYjEtMDkwZi00NmQ5LWFkODktYzhiYjY2NTZmYTNhXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "8.0/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "80/100"
+        }
+      ],
+      "Metascore": "80",
+      "imdbRating": "8.0",
+      "imdbVotes": "931",
+      "imdbID": "tt11464826",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    },
+    {
+      "Title": "The Trial of the Chicago 7",
+      "Year": "2020",
+      "Rated": "R",
+      "Released": "16 Oct 2020",
+      "Runtime": "129 min",
+      "Genre": "Drama, History, Thriller",
+      "Director": "Aaron Sorkin",
+      "Writer": "Aaron Sorkin (screenplay)",
+      "Actors": "Eddie Redmayne, Alex Sharp, Sacha Baron Cohen, Jeremy Strong",
+      "Plot": "The story of 7 people on trial stemming from various charges surrounding the uprising at the 1968 Democratic National Convention in Chicago, Illinois.",
+      "Language": "English",
+      "Country": "USA, UK, India",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMzRlMTcwODMtZjhjZS00NWI1LThkMDUtOTAwNzM1ZmU3ZDExXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.5/10"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "75/100"
+        }
+      ],
+      "Metascore": "75",
+      "imdbRating": "7.5",
+      "imdbVotes": "694",
+      "imdbID": "tt1070874",
+      "Type": "movie",
+      "DVD": "N/A",
+      "BoxOffice": "N/A",
+      "Production": "N/A",
+      "Website": "N/A",
+      "Response": "True"
+    }
   ]
 }
