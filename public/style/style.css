@@ -13,6 +13,44 @@ body {
     justify-content: center;
 }
 
+.search-container {
+    margin: 1rem;
+    width: 90%;
+    float: right;
+}
+
+.search-container form {
+    display: flex;
+    justify-content: center;
+}
+
+.search-container input[type=text] {
+    padding: 6px;
+    border-radius: 2px;
+    border: none;
+    width: 50%;
+    font-size: 15px;
+}
+
+.search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-right: 16px;
+    background: #1d1d1d;
+    color: white;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background: #ccc;
+}
+
+h1 {
+    width: 100%;
+}
+
 .card {
     display: inline-block;
     overflow: hidden;
