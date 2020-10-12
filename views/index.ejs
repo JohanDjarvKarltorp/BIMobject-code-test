@@ -2,16 +2,23 @@
 
 <body>
 <div class="flex-container">
+    <div class="search-container">
+        <form action="/search">
+            <input type="text" name="search" placeholder="Search movie..">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+
     <% for (const row of res) { %>
         <div class="card">
             <div class="poster">
-                <img class="poster-background" src=<%= row.Poster %>/>
+                <img class="poster-background" src="<%= row.Poster %>"/>
             </div>
             <div class="info">
                 <h1><%= row.Title %></h1>
             </div>
             <div class="overlay">
-                <% if (row.imdbRating !== "N/A") {%> <h2><%= row.imdbRating %>/10</h2> <% }%>
+                <% if (row.imdbRating !== "N/A" || row.imdbRating !== null) {%> <h2><%= row.imdbRating %>/10</h2> <% }%>
                 <h2><%= row.Genre %></h2>
                 <h2><%= row.Year %></h2>
             </div>
