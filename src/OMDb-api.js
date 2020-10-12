@@ -8,14 +8,12 @@ const key = 'cda0cff1';
 const omdb = {
     homepage: async () => {
         return popularMovies.top10;
-        //return await Promise.all(popularMovies.ids.map(async id => await omdb.get(id)));
     },
 
-    get: async (id) => {
-        return await fetch(`${url}/?i=${id}&apikey=${key}`).then(res => res.json());
-    }
+    search: async (keyword) => {
+        return await fetch(`${url}/?s=${keyword}&type=movie&series&apikey=${key}`)
+            .then(res => res.json());
+    },
 };
-
-omdb.homepage();
 
 module.exports = omdb;
