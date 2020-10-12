@@ -36,6 +36,8 @@ body {
     float: right;
     padding: 6px 10px;
     margin-right: 16px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     background: #1d1d1d;
     color: white;
     font-size: 17px;
@@ -68,7 +70,7 @@ h1 {
 }
 
 .card .poster {
-    border: 10px solid white;
+    margin: 10px;
     min-height: 445px;
 }
 
@@ -76,6 +78,19 @@ h1 {
     max-width: 100%;
     max-height: 100%;
     border-radius: 2px;
+}
+
+.card .placeholder {
+    margin: 10px;
+    min-height: 445px;
+    background: #e9ecef;
+    display: flex;
+    justify-content: center;
+}
+
+.card .placeholder img {
+    max-width: 20%;
+    max-height: 20%;
 }
 
 .card .info {
