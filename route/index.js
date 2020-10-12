@@ -24,8 +24,6 @@ router.get('/search', async (req, res) => {
 
     data.res = results.Search;
 
-    console.log(data.res);
-
     res.render('index', data);
 });
 
