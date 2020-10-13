@@ -5,14 +5,18 @@ Optional
 - Make the website server side rendered (functional when JavaScript is turned off). :heavy_check_mark:
 
 # Run
-- Clone the repo `git clone git@github.com:JohanDjarvKarltorp/coordinates.git`
-- Jump to directory `cd coordinates`
+- Clone the repo `git clone git@github.com:JohanDjarvKarltorp/BIMobject-code-test.git`
+- Jump to directory `cd BIMobject-code-test`
 - Install npm modules `npm install`
 - Start server `node index.js`
 - Go to http://localhost:1337/
 
 ## Test
-- To start eslint `npm test`
+To keep the code clean and consistent i use eslint. Eslint is a pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript.
+
+I also use a commit-hook that will run eslint when a git commit command is called. If eslint returns errors, it will try to automatically fix them, if that also fails the git commit command is canceled.
+- To start eslint and test all your JavaScript files inside the project run: `npm test`
+
 ---
 
 # Project structure
